@@ -26,7 +26,7 @@
             var morning = ('<h3>Good morning, It\'s Breakfast Time</h3>');
             var afternoon = ('<h3>Good afternoon, It\'s Lunch Time</h3>');
             var evening = ('<h3>Good evening, It\'s Dinner Time</h3>');
-            var infinity =('</h3>Judgement Day</h3>');
+            var judgementDay =('</h3>Judgement Day</h3>');
 
             if (thehours >= 0 && thehours < 12) {
                 themessage = morning; 
@@ -37,7 +37,7 @@
             } else if (thehours >= 17 && thehours < 24) {
                 themessage = evening;
             } else {
-                themessage = infinity;
+                themessage = judgementDay;
             }
 
             $('.greeting').append(themessage);
