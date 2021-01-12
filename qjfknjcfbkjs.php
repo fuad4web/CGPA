@@ -8,7 +8,7 @@
       <form action="" class="insert-form" method="post" id="insert_form">
         <hr>
         <h1 class="text-center">Calculation of GPA and CGPA for Higher Institution</h1>
-        <h3 class="text-center"><span class="greeting"></span> You are Welcome <?php echo ucwords($_SESSION['user']); ?>, studying <?php echo ucwords($_SESSION['dept']); ?> at <?php echo strtoupper($_SESSION['inst']); ?></h3>
+        <h3 class="text-center"><span class="greeting"></span> You are Welcome to <?php echo ucwords($_SESSION['user']); ?>, studying <?php echo ucwords($_SESSION['dept']); ?> at <?php echo strtoupper($_SESSION['inst']); ?></h3>
         <hr>
           <table class="table table-bordered table-striped col-md-12 col-xs-3 col-sm-6" id="table_field">
             <tr>

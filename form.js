@@ -10,7 +10,7 @@ $("#table_field").on("click", "#clear", function() {
 });
 
 // reset cgpa form
-$("#cgpaTable").on('click', '#CGPAreset', function() {
+$("#cgpaTable").on('click', '#clear', function() {
   $('.cgpaForm').reset();
 });
 
